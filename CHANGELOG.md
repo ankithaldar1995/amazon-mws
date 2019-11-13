@@ -1,3 +1,46 @@
+0.0.24
+  - Add Subscription in Typescript definition
+  - Correct Documentation
+  - Allow user to change response type into XML format
+  - Allow user to change content type for request
+  
+0.0.23
+  - Bug Fix for Feed Result charset
+
+0.0.22
+  - Bug Fix Default value for XML parsing
+  - Add Support for the Subscription APIs, Recommendations API
+  - Add Example for CreateSubscription, DeleteSubscription, ListSubscriptions, RegisterDestination
+  - Add Example for GetLastUpdatedTimeForRecommendations, ListRecommendations
+
+0.0.21
+  - Handle for non content type responses
+  - Bug fix for GetMyPriceForASIN and similar other products API
+  - Add example, test case for GetMyPriceForASIN
+  - Add test case for failure/error responses
+  - Add support for RequestReport API
+  - Add example for GetMyFeesEstimate in Products
+  - Add force check for the XML string
+  
+0.0.19
+  - Correct lint and increase test case timeout
+  - Added Status Code in Error Response.
+  - Added Status Code in Success Response
+  - Remove OS Dependent Modules
+  - Use the light version of the iconv
+  - Fix Tab delimited CSV Report
+  - Removes node-expat & xml2json
+  - Add xml parser package as xml2js
+
+0.0.18
+  - Add basic Test cases
+  - Add jshint lint checking
+  - Code Reformatting
+  - Add support for parsing special characters
+  - Add support for API which return data as binary file format
+  - Extend support for GetLowestPricedOffersForASIN, GetLowestPricedOffersForSKU and other product methods
+  - Added test cases for Feeds, Finances, Fulfillment Inventory, Fulfillment Outbound Shipment, Fulfillment Inbound Shipment, Products, Orders, Sellers
+
 0.0.17
   - Extend support for TypeScript typed definition : feeds, finances, fulfillmentInboundShipment, fulfillmentInventory, fulfillmentOutboundShipment, merchantFulfillment, orders, products, sellers
 
